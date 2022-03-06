@@ -45,3 +45,14 @@ Alinhar elemento acima de outro elemento, neste exemplo chamado b1
 ```
 android:layout_above="@id/b1"
 ```
+## Fazer um botão redondo
+Criar um arquivo no drawable
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/purple_500" />
+    <corners android:radius="25dp"/>
+
+</shape>
+```
